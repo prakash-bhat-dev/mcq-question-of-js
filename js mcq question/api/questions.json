@@ -1,0 +1,2102 @@
+[
+  {
+    "id": 1,
+    "level": "basic",
+    "topic": "variables",
+    "question": "What is the output?",
+    "code": "let x = 10;\nconsole.log(x);",
+    "options": [
+      "10",
+      "\"10\"",
+      "undefined",
+      "null"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 2,
+    "level": "basic",
+    "topic": "data types",
+    "question": "What is the output?",
+    "code": "const name = \"JavaScript\";\nconsole.log(typeof name);",
+    "options": [
+      "object",
+      "string",
+      "text",
+      "String"
+    ],
+    "answer": "string"
+  },
+  {
+    "id": 3,
+    "level": "basic",
+    "topic": "data types",
+    "question": "What is the output?",
+    "code": "let x;\nconsole.log(typeof x);",
+    "options": [
+      "null",
+      "undefined",
+      "object",
+      "empty"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 4,
+    "level": "basic",
+    "topic": "data types",
+    "question": "What is the output?",
+    "code": "let x = null;\nconsole.log(typeof x);",
+    "options": [
+      "null",
+      "undefined",
+      "object",
+      "boolean"
+    ],
+    "answer": "object"
+  },
+  {
+    "id": 5,
+    "level": "basic",
+    "topic": "data types",
+    "question": "What is the output?",
+    "code": "let x = true;\nconsole.log(typeof x);",
+    "options": [
+      "true",
+      "Boolean",
+      "boolean",
+      "logical"
+    ],
+    "answer": "boolean"
+  },
+  {
+    "id": 6,
+    "level": "basic",
+    "topic": "operators",
+    "question": "What is the output?",
+    "code": "let x = 20;\nlet y = 5;\nconsole.log(x + y);",
+    "options": [
+      "25",
+      "205",
+      "15",
+      "100"
+    ],
+    "answer": "25"
+  },
+  {
+    "id": 7,
+    "level": "basic",
+    "topic": "variables",
+    "question": "Which keyword is used to declare a variable whose value cannot be reassigned?",
+    "code": "",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "answer": "const"
+  },
+  {
+    "id": 8,
+    "level": "basic",
+    "topic": "variables",
+    "question": "Which of the following is a valid JavaScript variable name?",
+    "code": "",
+    "options": [
+      "2name",
+      "user-name",
+      "userName",
+      "let"
+    ],
+    "answer": "userName"
+  },
+  {
+    "id": 9,
+    "level": "basic",
+    "topic": "variables",
+    "question": "What happens when this code runs?",
+    "code": "const x = 10;\nx = 20;\nconsole.log(x);",
+    "options": [
+      "20",
+      "10",
+      "undefined",
+      "Error"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 10,
+    "level": "basic",
+    "topic": "variables",
+    "question": "Which keyword has function scope rather than block scope?",
+    "code": "",
+    "options": [
+      "let",
+      "const",
+      "var",
+      "class"
+    ],
+    "answer": "var"
+  },
+  {
+    "id": 11,
+    "level": "basic",
+    "topic": "comparison operators",
+    "question": "What is the output?",
+    "code": "console.log(10 == \"10\");",
+    "options": [
+      "true",
+      "false",
+      "10",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 12,
+    "level": "basic",
+    "topic": "comparison operators",
+    "question": "What is the output?",
+    "code": "console.log(10 === \"10\");",
+    "options": [
+      "true",
+      "false",
+      "\"10\"",
+      "Error"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 13,
+    "level": "basic",
+    "topic": "comparison operators",
+    "question": "What is the output?",
+    "code": "console.log(10 != \"10\");",
+    "options": [
+      "true",
+      "false",
+      "10",
+      "Error"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 14,
+    "level": "basic",
+    "topic": "comparison operators",
+    "question": "What is the output?",
+    "code": "console.log(10 !== \"10\");",
+    "options": [
+      "true",
+      "false",
+      "10",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 15,
+    "level": "basic",
+    "topic": "operators",
+    "question": "What is the output?",
+    "code": "console.log(10 % 3);",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "10"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 16,
+    "level": "basic",
+    "topic": "operators",
+    "question": "What is the output?",
+    "code": "let x = 5;\nconsole.log(x++);\nconsole.log(x);",
+    "options": [
+      "5 5",
+      "6 6",
+      "5 6",
+      "6 5"
+    ],
+    "answer": "5 6"
+  },
+  {
+    "id": 17,
+    "level": "basic",
+    "topic": "operators",
+    "question": "What is the output?",
+    "code": "let x = 5;\nconsole.log(++x);",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "undefined"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 18,
+    "level": "basic",
+    "topic": "operators",
+    "question": "What is the output?",
+    "code": "console.log(2 + 3 * 4);",
+    "options": [
+      "20",
+      "14",
+      "24",
+      "10"
+    ],
+    "answer": "14"
+  },
+  {
+    "id": 19,
+    "level": "basic",
+    "topic": "logical operators",
+    "question": "What is the output?",
+    "code": "console.log(true && false);",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 20,
+    "level": "basic",
+    "topic": "logical operators",
+    "question": "What is the output?",
+    "code": "console.log(true || false);",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 21,
+    "level": "basic",
+    "topic": "conditions",
+    "question": "What is printed?",
+    "code": "let age = 20;\nif (age >= 18) {\n    console.log(\"Adult\");\n}",
+    "options": [
+      "Minor",
+      "Adult",
+      "20",
+      "Nothing"
+    ],
+    "answer": "Adult"
+  },
+  {
+    "id": 22,
+    "level": "basic",
+    "topic": "conditions",
+    "question": "What is printed?",
+    "code": "let x = 5;\nif (x > 10) {\n    console.log(\"A\");\n} else {\n    console.log(\"B\");\n}",
+    "options": [
+      "A",
+      "B",
+      "5",
+      "Error"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "level": "basic",
+    "topic": "switch",
+    "question": "What is printed?",
+    "code": "let day = 2;\nswitch (day) {\n    case 1:\n        console.log(\"Monday\");\n        break;\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Unknown",
+      "Nothing"
+    ],
+    "answer": "Tuesday"
+  },
+  {
+    "id": 24,
+    "level": "basic",
+    "topic": "loops",
+    "question": "What is printed?",
+    "code": "for (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
+    "options": [
+      "0 1 2",
+      "1 2 3",
+      "0 1 2 3",
+      "1 2"
+    ],
+    "answer": "0 1 2"
+  },
+  {
+    "id": 25,
+    "level": "basic",
+    "topic": "loops",
+    "question": "What is printed?",
+    "code": "let i = 0;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}",
+    "options": [
+      "1 2 3",
+      "0 1 2",
+      "0 1 2 3",
+      "Infinite loop"
+    ],
+    "answer": "0 1 2"
+  },
+  {
+    "id": 26,
+    "level": "basic",
+    "topic": "loops",
+    "question": "Which statement immediately exits a loop?",
+    "code": "",
+    "options": [
+      "stop",
+      "exit",
+      "break",
+      "return"
+    ],
+    "answer": "break"
+  },
+  {
+    "id": 27,
+    "level": "basic",
+    "topic": "loops",
+    "question": "Which statement skips the current iteration of a loop?",
+    "code": "",
+    "options": [
+      "skip",
+      "continue",
+      "next",
+      "pass"
+    ],
+    "answer": "continue"
+  },
+  {
+    "id": 28,
+    "level": "basic",
+    "topic": "loops",
+    "question": "What is printed?",
+    "code": "for (let i = 0; i < 5; i++) {\n    if (i === 2) continue;\n    console.log(i);\n}",
+    "options": [
+      "0 1 2 3 4",
+      "0 1 3 4",
+      "1 2 3 4",
+      "0 1"
+    ],
+    "answer": "0 1 3 4"
+  },
+  {
+    "id": 29,
+    "level": "basic",
+    "topic": "functions",
+    "question": "What is the output?",
+    "code": "function add(a, b) {\n    return a + b;\n}\nconsole.log(add(2, 3));",
+    "options": [
+      "23",
+      "5",
+      "undefined",
+      "Error"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 30,
+    "level": "basic",
+    "topic": "functions",
+    "question": "What keyword is used to return a value from a function?",
+    "code": "",
+    "options": [
+      "send",
+      "return",
+      "output",
+      "value"
+    ],
+    "answer": "return"
+  },
+  {
+    "id": 31,
+    "level": "basic",
+    "topic": "functions",
+    "question": "What is printed?",
+    "code": "function test() {\n    return;\n}\nconsole.log(test());",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "undefined"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 32,
+    "level": "basic",
+    "topic": "functions",
+    "question": "What is the output?",
+    "code": "function greet(name = \"Guest\") {\n    return \"Hello \" + name;\n}\nconsole.log(greet());",
+    "options": [
+      "Hello",
+      "Hello undefined",
+      "Hello Guest",
+      "Error"
+    ],
+    "answer": "Hello Guest"
+  },
+  {
+    "id": 33,
+    "level": "basic",
+    "topic": "arrow functions",
+    "question": "Which of the following correctly defines an arrow function?",
+    "code": "",
+    "options": [
+      "function => () {}",
+      "const add = (a,b) => a+b",
+      "arrow add(a,b)",
+      "const add -> (a,b)"
+    ],
+    "answer": "const add = (a,b) => a+b"
+  },
+  {
+    "id": 34,
+    "level": "basic",
+    "topic": "strings",
+    "question": "What is the output?",
+    "code": "let text = \"JavaScript\";\nconsole.log(text.length);",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 35,
+    "level": "basic",
+    "topic": "strings",
+    "question": "What is the output?",
+    "code": "let text = \"JavaScript\";\nconsole.log(text.toUpperCase());",
+    "options": [
+      "javascript",
+      "Javascript",
+      "JAVASCRIPT",
+      "Error"
+    ],
+    "answer": "JAVASCRIPT"
+  },
+  {
+    "id": 36,
+    "level": "basic",
+    "topic": "strings",
+    "question": "What is the output?",
+    "code": "let text = \"Hello World\";\nconsole.log(text.includes(\"World\"));",
+    "options": [
+      "true",
+      "false",
+      "World",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 37,
+    "level": "basic",
+    "topic": "strings",
+    "question": "What is the output?",
+    "code": "let text = \"Hello\";\nconsole.log(text.charAt(1));",
+    "options": [
+      "H",
+      "e",
+      "l",
+      "o"
+    ],
+    "answer": "e"
+  },
+  {
+    "id": 38,
+    "level": "basic",
+    "topic": "strings",
+    "question": "Which symbol is commonly used for template literals?",
+    "code": "",
+    "options": [
+      "' '",
+      "\" \"",
+      "` `",
+      "/ /"
+    ],
+    "answer": "` `"
+  },
+  {
+    "id": 39,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "What is the output?",
+    "code": "let numbers = [10, 20, 30];\nconsole.log(numbers[0]);",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "undefined"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 40,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "What is the output?",
+    "code": "let numbers = [10, 20, 30];\nconsole.log(numbers.length);",
+    "options": [
+      "2",
+      "3",
+      "30",
+      "0"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 41,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "Which method adds an element to the end of an array?",
+    "code": "",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insert()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "id": 42,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "Which method removes the last element of an array?",
+    "code": "",
+    "options": [
+      "remove()",
+      "pop()",
+      "delete()",
+      "last()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "id": 43,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "What is the output?",
+    "code": "let numbers = [1, 2];\nnumbers.push(3);\nconsole.log(numbers);",
+    "options": [
+      "[1, 2]",
+      "[3, 1, 2]",
+      "[1, 2, 3]",
+      "3"
+    ],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "id": 44,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "Which method removes the first element of an array?",
+    "code": "",
+    "options": [
+      "shift()",
+      "unshift()",
+      "removeFirst()",
+      "pop()"
+    ],
+    "answer": "shift()"
+  },
+  {
+    "id": 45,
+    "level": "basic",
+    "topic": "arrays",
+    "question": "Which method adds elements to the beginning of an array?",
+    "code": "",
+    "options": [
+      "push()",
+      "shift()",
+      "unshift()",
+      "prepend()"
+    ],
+    "answer": "unshift()"
+  },
+  {
+    "id": 46,
+    "level": "basic",
+    "topic": "objects",
+    "question": "What is the output?",
+    "code": "const user = {\n    name: \"Ram\",\n    age: 20\n};\nconsole.log(user.name);",
+    "options": [
+      "user",
+      "name",
+      "Ram",
+      "undefined"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 47,
+    "level": "basic",
+    "topic": "objects",
+    "question": "How can you access an object's property named name?",
+    "code": "",
+    "options": [
+      "user->name",
+      "user.name",
+      "user::name",
+      "user/name"
+    ],
+    "answer": "user.name"
+  },
+  {
+    "id": 48,
+    "level": "basic",
+    "topic": "objects",
+    "question": "What is the output?",
+    "code": "const user = {\n    name: \"Ram\"\n};\nuser.age = 20;\nconsole.log(user.age);",
+    "options": [
+      "undefined",
+      "null",
+      "20",
+      "Error"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 49,
+    "level": "basic",
+    "topic": "objects",
+    "question": "What is an object in JavaScript?",
+    "code": "",
+    "options": [
+      "Only a collection of numbers",
+      "A collection of key-value pairs",
+      "Only a function",
+      "A loop"
+    ],
+    "answer": "A collection of key-value pairs"
+  },
+  {
+    "id": 50,
+    "level": "basic",
+    "topic": "objects",
+    "question": "What is the output?",
+    "code": "const user = {\n    name: \"Ram\"\n};\nconsole.log(\"name\" in user);",
+    "options": [
+      "true",
+      "false",
+      "name",
+      "Error"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 51,
+    "level": "intermediate",
+    "topic": "arrow functions",
+    "question": "What is the output?",
+    "code": "const add = (a, b) => a + b;\nconsole.log(add(5, 3));",
+    "options": [
+      "53",
+      "8",
+      "undefined",
+      "Error"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 52,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3];\nconst result = numbers.map(x => x * 2);\nconsole.log(result);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 4, 6]",
+      "[1, 4, 9]",
+      "6"
+    ],
+    "answer": "[2, 4, 6]"
+  },
+  {
+    "id": 53,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3, 4];\nconst result = numbers.filter(x => x > 2);\nconsole.log(result);",
+    "options": [
+      "[1, 2]",
+      "[2, 3]",
+      "[3, 4]",
+      "3"
+    ],
+    "answer": "[3, 4]"
+  },
+  {
+    "id": 54,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3, 4];\nconst result = numbers.reduce((sum, x) => sum + x, 0);\nconsole.log(result);",
+    "options": [
+      "4",
+      "10",
+      "24",
+      "[10]"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 55,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "Which method returns the first element that satisfies a condition?",
+    "code": "",
+    "options": [
+      "filter()",
+      "find()",
+      "search()",
+      "first()"
+    ],
+    "answer": "find()"
+  },
+  {
+    "id": 56,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3];\nconsole.log(numbers.some(x => x > 2));",
+    "options": [
+      "true",
+      "false",
+      "3",
+      "[3]"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 57,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3];\nconsole.log(numbers.every(x => x > 0));",
+    "options": [
+      "true",
+      "false",
+      "1",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 58,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is printed?",
+    "code": "const numbers = [1, 2, 3];\nconst result = numbers.map(x => x * 2);\nconsole.log(numbers);",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3]",
+      "[1, 4, 9]",
+      "Error"
+    ],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "id": 59,
+    "level": "intermediate",
+    "topic": "arrays",
+    "question": "What does Array.isArray([]) return?",
+    "code": "Array.isArray([])",
+    "options": [
+      "true",
+      "false",
+      "array",
+      "object"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 60,
+    "level": "intermediate",
+    "topic": "array methods",
+    "question": "What is the output?",
+    "code": "const numbers = [1, 2, 3];\nconst result = numbers.includes(2);\nconsole.log(result);",
+    "options": [
+      "2",
+      "true",
+      "false",
+      "[2]"
+    ],
+    "answer": "true"
+  },
+  {
+    "id": 61,
+    "level": "intermediate",
+    "topic": "destructuring",
+    "question": "What is the output?",
+    "code": "const user = {\n    name: \"Ram\",\n    age: 20\n};\nconst { name } = user;\nconsole.log(name);",
+    "options": [
+      "user",
+      "undefined",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 62,
+    "level": "intermediate",
+    "topic": "destructuring",
+    "question": "What is the output?",
+    "code": "const numbers = [10, 20, 30];\nconst [a, b] = numbers;\nconsole.log(b);",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "undefined"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 63,
+    "level": "intermediate",
+    "topic": "spread operator",
+    "question": "What is the output?",
+    "code": "const a = [1, 2];\nconst b = [...a, 3];\nconsole.log(b);",
+    "options": [
+      "[1, 2]",
+      "[3, 1, 2]",
+      "[1, 2, 3]",
+      "Error"
+    ],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "id": 64,
+    "level": "intermediate",
+    "topic": "spread operator",
+    "question": "What does the spread operator ... do when used with an array?",
+    "code": "",
+    "options": [
+      "Deletes the array",
+      "Expands its elements",
+      "Sorts the array",
+      "Converts it to a string"
+    ],
+    "answer": "Expands its elements"
+  },
+  {
+    "id": 65,
+    "level": "intermediate",
+    "topic": "rest parameters",
+    "question": "What is the output?",
+    "code": "function sum(...numbers) {\n    return numbers.length;\n}\nconsole.log(sum(1, 2, 3));",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 66,
+    "level": "intermediate",
+    "topic": "rest parameters",
+    "question": "What is ...numbers in the previous function called?",
+    "code": "",
+    "options": [
+      "Spread parameter",
+      "Rest parameter",
+      "Array parameter",
+      "Expansion parameter"
+    ],
+    "answer": "Rest parameter"
+  },
+  {
+    "id": 67,
+    "level": "intermediate",
+    "topic": "hoisting",
+    "question": "What is printed?",
+    "code": "console.log(x);\nvar x = 10;",
+    "options": [
+      "10",
+      "undefined",
+      "ReferenceError",
+      "null"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "id": 68,
+    "level": "intermediate",
+    "topic": "hoisting",
+    "question": "What happens when this code runs?",
+    "code": "console.log(x);\nlet x = 10;",
+    "options": [
+      "10",
+      "undefined",
+      "ReferenceError",
+      "null"
+    ],
+    "answer": "ReferenceError"
+  },
+  {
+    "id": 69,
+    "level": "intermediate",
+    "topic": "scope",
+    "question": "What is the period in which a let or const variable exists but cannot be accessed before its declaration called?",
+    "code": "",
+    "options": [
+      "Scope Chain",
+      "Temporal Dead Zone",
+      "Closure",
+      "Execution Phase"
+    ],
+    "answer": "Temporal Dead Zone"
+  },
+  {
+    "id": 70,
+    "level": "intermediate",
+    "topic": "scope",
+    "question": "What is the output?",
+    "code": "let x = 10;\n{\n    let x = 20;\n    console.log(x);\n}\nconsole.log(x);",
+    "options": [
+      "10 10",
+      "20 20",
+      "20 10",
+      "10 20"
+    ],
+    "answer": "20 10"
+  },
+  {
+    "id": 71,
+    "level": "intermediate",
+    "topic": "closures",
+    "question": "What is the output?",
+    "code": "function outer() {\n    let x = 10;\n    function inner() {\n        return x;\n    }\n    return inner;\n}\nconst fn = outer();\nconsole.log(fn());",
+    "options": [
+      "undefined",
+      "10",
+      "null",
+      "Error"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 72,
+    "level": "intermediate",
+    "topic": "closures",
+    "question": "A closure allows a function to do what?",
+    "code": "",
+    "options": [
+      "Delete its parent function",
+      "Remember variables from its outer scope",
+      "Stop the event loop",
+      "Create a class automatically"
+    ],
+    "answer": "Remember variables from its outer scope"
+  },
+  {
+    "id": 73,
+    "level": "intermediate",
+    "topic": "closures",
+    "question": "What is the output?",
+    "code": "function counter() {\n    let count = 0;\n    return function () {\n        count++;\n        return count;\n    };\n}\nconst c = counter();\nconsole.log(c());\nconsole.log(c());",
+    "options": [
+      "1 1",
+      "0 1",
+      "1 2",
+      "2 2"
+    ],
+    "answer": "1 2"
+  },
+  {
+    "id": 74,
+    "level": "intermediate",
+    "topic": "this",
+    "question": "What is printed?",
+    "code": "const user = {\n    name: \"Ram\",\n    greet() {\n        console.log(this.name);\n    }\n};\nuser.greet();",
+    "options": [
+      "undefined",
+      "user",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 75,
+    "level": "intermediate",
+    "topic": "this",
+    "question": "In a regular object method call such as user.greet(), what does this refer to?",
+    "code": "",
+    "options": [
+      "The function",
+      "The object before the dot",
+      "The global object always",
+      "undefined always"
+    ],
+    "answer": "The object before the dot"
+  },
+  {
+    "id": 76,
+    "level": "intermediate",
+    "topic": "this",
+    "question": "Arrow functions normally get their this value from where?",
+    "code": "",
+    "options": [
+      "The object before the dot",
+      "Their surrounding lexical scope",
+      "The function arguments",
+      "The prototype"
+    ],
+    "answer": "Their surrounding lexical scope"
+  },
+  {
+    "id": 77,
+    "level": "intermediate",
+    "topic": "objects",
+    "question": "What is printed?",
+    "code": "const user = {\n    name: \"Ram\"\n};\nconst copy = { ...user };\nconsole.log(copy.name);",
+    "options": [
+      "undefined",
+      "user",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 78,
+    "level": "intermediate",
+    "topic": "classes",
+    "question": "Which keyword creates a JavaScript class?",
+    "code": "",
+    "options": [
+      "object",
+      "class",
+      "struct",
+      "type"
+    ],
+    "answer": "class"
+  },
+  {
+    "id": 79,
+    "level": "intermediate",
+    "topic": "classes",
+    "question": "What is the output?",
+    "code": "class Person {\n    constructor(name) {\n        this.name = name;\n    }\n}\nconst p = new Person(\"Ram\");\nconsole.log(p.name);",
+    "options": [
+      "Person",
+      "name",
+      "Ram",
+      "undefined"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 80,
+    "level": "intermediate",
+    "topic": "classes",
+    "question": "Which method is automatically called when an object is created with new from a class?",
+    "code": "",
+    "options": [
+      "start()",
+      "init()",
+      "constructor()",
+      "create()"
+    ],
+    "answer": "constructor()"
+  },
+  {
+    "id": 81,
+    "level": "intermediate",
+    "topic": "DOM",
+    "question": "Which method selects an element by its ID?",
+    "code": "",
+    "options": [
+      "document.getElementById()",
+      "document.getById()",
+      "document.selectId()",
+      "document.id()"
+    ],
+    "answer": "document.getElementById()"
+  },
+  {
+    "id": 82,
+    "level": "intermediate",
+    "topic": "DOM",
+    "question": "What does querySelector() return?",
+    "code": "const element = document.querySelector(\".title\");",
+    "options": [
+      "All matching elements",
+      "The first matching element",
+      "Only an ID",
+      "A string"
+    ],
+    "answer": "The first matching element"
+  },
+  {
+    "id": 83,
+    "level": "intermediate",
+    "topic": "DOM",
+    "question": "Which property changes the HTML content of an element?",
+    "code": "",
+    "options": [
+      "innerHTML",
+      "htmlContent",
+      "contentHTML",
+      "innerTextHTML"
+    ],
+    "answer": "innerHTML"
+  },
+  {
+    "id": 84,
+    "level": "intermediate",
+    "topic": "DOM",
+    "question": "Which method creates a new DOM element?",
+    "code": "",
+    "options": [
+      "document.newElement()",
+      "document.createElement()",
+      "document.addElement()",
+      "document.makeElement()"
+    ],
+    "answer": "document.createElement()"
+  },
+  {
+    "id": 85,
+    "level": "intermediate",
+    "topic": "events",
+    "question": "Which method attaches an event handler?",
+    "code": "",
+    "options": [
+      "addEventListener()",
+      "addEvent()",
+      "attachEventListener()",
+      "listen()"
+    ],
+    "answer": "addEventListener()"
+  },
+  {
+    "id": 86,
+    "level": "intermediate",
+    "topic": "events",
+    "question": "When will Clicked be printed?",
+    "code": "button.addEventListener(\"click\", function () {\n    console.log(\"Clicked\");\n});",
+    "options": [
+      "When the page loads",
+      "When the button is clicked",
+      "When the mouse leaves",
+      "Never"
+    ],
+    "answer": "When the button is clicked"
+  },
+  {
+    "id": 87,
+    "level": "intermediate",
+    "topic": "events",
+    "question": "Which event occurs when a user types into an input?",
+    "code": "",
+    "options": [
+      "click",
+      "input",
+      "hover",
+      "write"
+    ],
+    "answer": "input"
+  },
+  {
+    "id": 88,
+    "level": "intermediate",
+    "topic": "events",
+    "question": "Which event occurs when a form is submitted?",
+    "code": "",
+    "options": [
+      "send",
+      "submit",
+      "formSubmit",
+      "post"
+    ],
+    "answer": "submit"
+  },
+  {
+    "id": 89,
+    "level": "intermediate",
+    "topic": "JSON",
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "code": "",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.object()"
+    ],
+    "answer": "JSON.stringify()"
+  },
+  {
+    "id": 90,
+    "level": "intermediate",
+    "topic": "JSON",
+    "question": "Which method converts a JSON string into a JavaScript value?",
+    "code": "",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.toObject()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "id": 91,
+    "level": "intermediate",
+    "topic": "web storage",
+    "question": "Which browser API stores data persistently as key-value strings?",
+    "code": "",
+    "options": [
+      "sessionStorage",
+      "localStorage",
+      "browserStorage",
+      "cookieStorage"
+    ],
+    "answer": "localStorage"
+  },
+  {
+    "id": 92,
+    "level": "intermediate",
+    "topic": "web storage",
+    "question": "What is printed?",
+    "code": "localStorage.setItem(\"name\", \"Ram\");\nconsole.log(localStorage.getItem(\"name\"));",
+    "options": [
+      "name",
+      "undefined",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 93,
+    "level": "intermediate",
+    "topic": "promises",
+    "question": "A Promise can be in which states?",
+    "code": "",
+    "options": [
+      "Start, Stop, End",
+      "Pending, Fulfilled, Rejected",
+      "Open, Close, Error",
+      "Waiting, Running, Finished"
+    ],
+    "answer": "Pending, Fulfilled, Rejected"
+  },
+  {
+    "id": 94,
+    "level": "intermediate",
+    "topic": "promises",
+    "question": "Which method handles a fulfilled Promise?",
+    "code": "",
+    "options": [
+      "success()",
+      "then()",
+      "resolve()",
+      "done()"
+    ],
+    "answer": "then()"
+  },
+  {
+    "id": 95,
+    "level": "intermediate",
+    "topic": "promises",
+    "question": "Which method handles a rejected Promise?",
+    "code": "",
+    "options": [
+      "catch()",
+      "error()",
+      "reject()",
+      "failed()"
+    ],
+    "answer": "catch()"
+  },
+  {
+    "id": 96,
+    "level": "intermediate",
+    "topic": "promises",
+    "question": "What is printed?",
+    "code": "Promise.resolve(10)\n    .then(value => value * 2)\n    .then(value => console.log(value));",
+    "options": [
+      "10",
+      "20",
+      "12",
+      "undefined"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 97,
+    "level": "intermediate",
+    "topic": "async await",
+    "question": "What does an async function always return?",
+    "code": "",
+    "options": [
+      "A string",
+      "A number",
+      "A Promise",
+      "undefined"
+    ],
+    "answer": "A Promise"
+  },
+  {
+    "id": 98,
+    "level": "intermediate",
+    "topic": "async await",
+    "question": "Which keyword pauses an async function until a Promise settles?",
+    "code": "",
+    "options": [
+      "wait",
+      "pause",
+      "await",
+      "yield"
+    ],
+    "answer": "await"
+  },
+  {
+    "id": 99,
+    "level": "intermediate",
+    "topic": "async await",
+    "question": "Where can await normally be used?",
+    "code": "",
+    "options": [
+      "Only inside an async function, with modern JavaScript also allowing top-level await in supported modules",
+      "Only inside loops",
+      "Only inside classes",
+      "Only inside callbacks"
+    ],
+    "answer": "Only inside an async function, with modern JavaScript also allowing top-level await in supported modules"
+  },
+  {
+    "id": 100,
+    "level": "intermediate",
+    "topic": "fetch",
+    "question": "Which function is commonly used to make HTTP requests from modern browser JavaScript?",
+    "code": "",
+    "options": [
+      "request()",
+      "fetch()",
+      "http()",
+      "ajax()"
+    ],
+    "answer": "fetch()"
+  },
+  {
+    "id": 101,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "What is the output order?",
+    "code": "console.log(\"A\");\nsetTimeout(() => {\n    console.log(\"B\");\n}, 0);\nconsole.log(\"C\");",
+    "options": [
+      "A B C",
+      "B A C",
+      "A C B",
+      "C A B"
+    ],
+    "answer": "A C B"
+  },
+  {
+    "id": 102,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "What is the output order?",
+    "code": "console.log(\"A\");\nPromise.resolve().then(() => {\n    console.log(\"B\");\n});\nconsole.log(\"C\");",
+    "options": [
+      "A B C",
+      "A C B",
+      "B A C",
+      "C A B"
+    ],
+    "answer": "A C B"
+  },
+  {
+    "id": 103,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "What is the output order?",
+    "code": "console.log(\"A\");\nsetTimeout(() => console.log(\"B\"), 0);\nPromise.resolve().then(() => console.log(\"C\"));\nconsole.log(\"D\");",
+    "options": [
+      "A B C D",
+      "A D B C",
+      "A D C B",
+      "C A D B"
+    ],
+    "answer": "A D C B"
+  },
+  {
+    "id": 104,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "In browser JavaScript, Promise callbacks are generally placed in which queue?",
+    "code": "",
+    "options": [
+      "Macrotask queue",
+      "Microtask queue",
+      "Render queue",
+      "Stack queue"
+    ],
+    "answer": "Microtask queue"
+  },
+  {
+    "id": 105,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "Which generally runs before a timer callback when both are ready in the same event-loop turn?",
+    "code": "",
+    "options": [
+      "A Promise reaction/microtask",
+      "setTimeout() callback",
+      "A random callback",
+      "Neither"
+    ],
+    "answer": "A Promise reaction/microtask"
+  },
+  {
+    "id": 106,
+    "level": "advanced",
+    "topic": "call stack",
+    "question": "What is the call stack primarily used for?",
+    "code": "",
+    "options": [
+      "Storing CSS",
+      "Tracking active function calls",
+      "Storing HTTP responses",
+      "Storing DOM elements permanently"
+    ],
+    "answer": "Tracking active function calls"
+  },
+  {
+    "id": 107,
+    "level": "advanced",
+    "topic": "event loop",
+    "question": "What happens when the call stack becomes empty and microtasks are pending?",
+    "code": "",
+    "options": [
+      "Microtasks can be processed",
+      "JavaScript shuts down",
+      "The DOM is deleted",
+      "The browser reloads"
+    ],
+    "answer": "Microtasks can be processed"
+  },
+  {
+    "id": 108,
+    "level": "advanced",
+    "topic": "closures",
+    "question": "Why can the returned function still access x?",
+    "code": "function outer() {\n    let x = 10;\n    return function () {\n        return x;\n    };\n}\nconst fn = outer();\nconsole.log(fn());",
+    "options": [
+      "Because x is global",
+      "Because of closure",
+      "Because x is a constant",
+      "Because of hoisting"
+    ],
+    "answer": "Because of closure"
+  },
+  {
+    "id": 109,
+    "level": "advanced",
+    "topic": "closures",
+    "question": "Closures are created because a function retains access to what?",
+    "code": "",
+    "options": [
+      "Only global variables",
+      "Its lexical environment",
+      "Only function parameters",
+      "The DOM"
+    ],
+    "answer": "Its lexical environment"
+  },
+  {
+    "id": 110,
+    "level": "advanced",
+    "topic": "closures",
+    "question": "What is the output?",
+    "code": "function createCounter() {\n    let count = 0;\n    return () => ++count;\n}\nconst a = createCounter();\nconst b = createCounter();\nconsole.log(a());\nconsole.log(b());",
+    "options": [
+      "1 2",
+      "1 1",
+      "2 2",
+      "0 0"
+    ],
+    "answer": "1 1"
+  },
+  {
+    "id": 111,
+    "level": "advanced",
+    "topic": "this",
+    "question": "What is returned?",
+    "code": "const user = {\n    name: \"Ram\",\n    greet() {\n        return this.name;\n    }\n};\nconsole.log(user.greet());",
+    "options": [
+      "user",
+      "name",
+      "Ram",
+      "undefined"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 112,
+    "level": "advanced",
+    "topic": "call",
+    "question": "What does call() allow you to do?",
+    "code": "",
+    "options": [
+      "Delete a function",
+      "Call a function with a specified this value",
+      "Create a Promise",
+      "Create a class"
+    ],
+    "answer": "Call a function with a specified this value"
+  },
+  {
+    "id": 113,
+    "level": "advanced",
+    "topic": "call apply",
+    "question": "What is the primary difference between call() and apply()?",
+    "code": "",
+    "options": [
+      "call() cannot set this",
+      "apply() cannot pass arguments",
+      "They differ mainly in how arguments are supplied",
+      "There is no difference at all"
+    ],
+    "answer": "They differ mainly in how arguments are supplied"
+  },
+  {
+    "id": 114,
+    "level": "advanced",
+    "topic": "bind",
+    "question": "What does bind() return?",
+    "code": "",
+    "options": [
+      "A new function",
+      "A Promise",
+      "An object",
+      "A string"
+    ],
+    "answer": "A new function"
+  },
+  {
+    "id": 115,
+    "level": "advanced",
+    "topic": "bind",
+    "question": "What is the output?",
+    "code": "function greet() {\n    return this.name;\n}\nconst user = {\n    name: \"Ram\"\n};\nconst fn = greet.bind(user);\nconsole.log(fn());",
+    "options": [
+      "undefined",
+      "greet",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 116,
+    "level": "advanced",
+    "topic": "prototype",
+    "question": "Every ordinary JavaScript object can have an internal link to what?",
+    "code": "",
+    "options": [
+      "Its compiler",
+      "A prototype",
+      "Its HTML element",
+      "Its Promise"
+    ],
+    "answer": "A prototype"
+  },
+  {
+    "id": 117,
+    "level": "advanced",
+    "topic": "prototype",
+    "question": "Which property historically provides access to an object's prototype?",
+    "code": "",
+    "options": [
+      "__prototype__",
+      "prototype",
+      "__proto__",
+      "protoObject"
+    ],
+    "answer": "__proto__"
+  },
+  {
+    "id": 118,
+    "level": "advanced",
+    "topic": "prototype",
+    "question": "The prototype property is especially associated with what?",
+    "code": "",
+    "options": [
+      "Functions used as constructors",
+      "Strings only",
+      "Arrays only",
+      "JSON"
+    ],
+    "answer": "Functions used as constructors"
+  },
+  {
+    "id": 119,
+    "level": "advanced",
+    "topic": "prototype",
+    "question": "What is the output?",
+    "code": "function Person(name) {\n    this.name = name;\n}\nPerson.prototype.greet = function () {\n    return \"Hello\";\n};\nconst p = new Person(\"Ram\");\nconsole.log(p.greet());",
+    "options": [
+      "undefined",
+      "Hello",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Hello"
+  },
+  {
+    "id": 120,
+    "level": "advanced",
+    "topic": "prototype",
+    "question": "If a property is not found directly on an object, JavaScript can search where?",
+    "code": "",
+    "options": [
+      "The HTML document",
+      "The prototype chain",
+      "The CSS tree",
+      "The network"
+    ],
+    "answer": "The prototype chain"
+  },
+  {
+    "id": 121,
+    "level": "advanced",
+    "topic": "set",
+    "question": "What is the output?",
+    "code": "const set = new Set([1, 2, 2, 3]);\nconsole.log(set.size);",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 122,
+    "level": "advanced",
+    "topic": "set",
+    "question": "What is a key characteristic of Set?",
+    "code": "",
+    "options": [
+      "It automatically allows only duplicate values",
+      "It stores unique values",
+      "It only stores strings",
+      "It sorts values alphabetically"
+    ],
+    "answer": "It stores unique values"
+  },
+  {
+    "id": 123,
+    "level": "advanced",
+    "topic": "map",
+    "question": "What is the output?",
+    "code": "const map = new Map();\nmap.set(\"name\", \"Ram\");\nconsole.log(map.get(\"name\"));",
+    "options": [
+      "name",
+      "undefined",
+      "Ram",
+      "Error"
+    ],
+    "answer": "Ram"
+  },
+  {
+    "id": 124,
+    "level": "advanced",
+    "topic": "map",
+    "question": "What can a Map use as a key?",
+    "code": "",
+    "options": [
+      "Only strings",
+      "Only numbers",
+      "Various JavaScript values, including objects",
+      "Only symbols"
+    ],
+    "answer": "Various JavaScript values, including objects"
+  },
+  {
+    "id": 125,
+    "level": "advanced",
+    "topic": "symbol",
+    "question": "What does Symbol() create?",
+    "code": "",
+    "options": [
+      "A unique symbol value",
+      "A Promise",
+      "A number",
+      "A class"
+    ],
+    "answer": "A unique symbol value"
+  },
+  {
+    "id": 126,
+    "level": "advanced",
+    "topic": "symbol",
+    "question": "What is the output?",
+    "code": "const a = Symbol(\"id\");\nconst b = Symbol(\"id\");\nconsole.log(a === b);",
+    "options": [
+      "true",
+      "false",
+      "id",
+      "Error"
+    ],
+    "answer": "false"
+  },
+  {
+    "id": 127,
+    "level": "advanced",
+    "topic": "generators",
+    "question": "Which syntax is used to define a generator function?",
+    "code": "",
+    "options": [
+      "generator",
+      "function*",
+      "generate",
+      "yield function"
+    ],
+    "answer": "function*"
+  },
+  {
+    "id": 128,
+    "level": "advanced",
+    "topic": "generators",
+    "question": "Which keyword pauses a generator and produces a value?",
+    "code": "",
+    "options": [
+      "pause",
+      "await",
+      "yield",
+      "returnValue"
+    ],
+    "answer": "yield"
+  },
+  {
+    "id": 129,
+    "level": "advanced",
+    "topic": "generators",
+    "question": "What is the output?",
+    "code": "function* numbers() {\n    yield 1;\n    yield 2;\n}\nconst g = numbers();\nconsole.log(g.next().value);",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "undefined"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 130,
+    "level": "advanced",
+    "topic": "generators",
+    "question": "What does generator.next() return?",
+    "code": "",
+    "options": [
+      "Only the yielded value",
+      "An object containing value and done",
+      "A Promise always",
+      "A string"
+    ],
+    "answer": "An object containing value and done"
+  },
+  {
+    "id": 131,
+    "level": "advanced",
+    "topic": "promises",
+    "question": "What is printed?",
+    "code": "Promise.resolve(5)\n    .then(x => x * 2)\n    .then(x => console.log(x));",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "25"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 132,
+    "level": "advanced",
+    "topic": "promise combinators",
+    "question": "Which Promise method waits until all supplied Promises fulfill, but rejects if one rejects?",
+    "code": "",
+    "options": [
+      "Promise.all()",
+      "Promise.any()",
+      "Promise.race()",
+      "Promise.allSettled()"
+    ],
+    "answer": "Promise.all()"
+  },
+  {
+    "id": 133,
+    "level": "advanced",
+    "topic": "promise combinators",
+    "question": "Which Promise method returns results for all inputs regardless of fulfillment or rejection?",
+    "code": "",
+    "options": [
+      "Promise.all()",
+      "Promise.any()",
+      "Promise.allSettled()",
+      "Promise.race()"
+    ],
+    "answer": "Promise.allSettled()"
+  },
+  {
+    "id": 134,
+    "level": "advanced",
+    "topic": "promise combinators",
+    "question": "Which Promise method fulfills when the first fulfilled Promise is available and rejects if all reject?",
+    "code": "",
+    "options": [
+      "Promise.all()",
+      "Promise.any()",
+      "Promise.race()",
+      "Promise.first()"
+    ],
+    "answer": "Promise.any()"
+  },
+  {
+    "id": 135,
+    "level": "advanced",
+    "topic": "promise combinators",
+    "question": "Which Promise method settles when the first input Promise settles?",
+    "code": "",
+    "options": [
+      "Promise.race()",
+      "Promise.any()",
+      "Promise.first()",
+      "Promise.fast()"
+    ],
+    "answer": "Promise.race()"
+  },
+  {
+    "id": 136,
+    "level": "advanced",
+    "topic": "promises",
+    "question": "What is printed?",
+    "code": "Promise.reject(\"Error\")\n    .catch(error => console.log(error));",
+    "options": [
+      "Promise",
+      "Error",
+      "undefined",
+      "Nothing"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 137,
+    "level": "advanced",
+    "topic": "async await",
+    "question": "What does test() return?",
+    "code": "async function test() {\n    return 10;\n}\nconsole.log(test());",
+    "options": [
+      "10",
+      "undefined",
+      "A Promise",
+      "A string"
+    ],
+    "answer": "A Promise"
+  },
+  {
+    "id": 138,
+    "level": "advanced",
+    "topic": "async await",
+    "question": "What is printed?",
+    "code": "async function test() {\n    return 10;\n}\ntest().then(value => console.log(value));",
+    "options": [
+      "Promise",
+      "10",
+      "undefined",
+      "Error"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 139,
+    "level": "advanced",
+    "topic": "async await",
+    "question": "What happens when an async function throws an error?",
+    "code": "",
+    "options": [
+      "It normally returns a rejected Promise",
+      "The browser always crashes",
+      "It returns null",
+      "The error disappears"
+    ],
+    "answer": "It normally returns a rejected Promise"
+  },
+  {
+    "id": 140,
+    "level": "advanced",
+    "topic": "async await",
+    "question": "Which structure is commonly used to handle errors around await?",
+    "code": "",
+    "options": [
+      "if/else only",
+      "try/catch",
+      "switch",
+      "for/of"
+    ],
+    "answer": "try/catch"
+  },
+  {
+    "id": 141,
+    "level": "advanced",
+    "topic": "modules",
+    "question": "Which keyword exports a value from an ES module?",
+    "code": "",
+    "options": [
+      "send",
+      "export",
+      "share",
+      "module"
+    ],
+    "answer": "export"
+  },
+  {
+    "id": 142,
+    "level": "advanced",
+    "topic": "modules",
+    "question": "Which keyword imports an ES module?",
+    "code": "",
+    "options": [
+      "require",
+      "include",
+      "import",
+      "use"
+    ],
+    "answer": "import"
+  },
+  {
+    "id": 143,
+    "level": "advanced",
+    "topic": "modules",
+    "question": "How can the default export be imported?",
+    "code": "export default function greet() {\n    return \"Hello\";\n}",
+    "options": [
+      "import greet from \"./file.js\"",
+      "include greet from \"./file.js\"",
+      "require default \"./file.js\"",
+      "use greet \"./file.js\""
+    ],
+    "answer": "import greet from \"./file.js\""
+  },
+  {
+    "id": 144,
+    "level": "advanced",
+    "topic": "modules",
+    "question": "Can an ES module have multiple named exports?",
+    "code": "",
+    "options": [
+      "Yes",
+      "No",
+      "Only one",
+      "Only two"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": 145,
+    "level": "advanced",
+    "topic": "fetch",
+    "question": "What does fetch() return?",
+    "code": "",
+    "options": [
+      "A string",
+      "A Promise",
+      "An object immediately containing the response body",
+      "A callback"
+    ],
+    "answer": "A Promise"
+  },
+  {
+    "id": 146,
+    "level": "advanced",
+    "topic": "AbortController",
+    "question": "Which API can be used to cancel an in-progress fetch() request?",
+    "code": "",
+    "options": [
+      "RequestStop",
+      "AbortController",
+      "CancelFetch",
+      "FetchController"
+    ],
+    "answer": "AbortController"
+  },
+  {
+    "id": 147,
+    "level": "advanced",
+    "topic": "DOM events",
+    "question": "Which method can be used to prevent a form's default submission behavior?",
+    "code": "",
+    "options": [
+      "event.preventDefault()",
+      "event.stopForm()",
+      "event.cancelForm()",
+      "event.preventSubmit()"
+    ],
+    "answer": "event.preventDefault()"
+  },
+  {
+    "id": 148,
+    "level": "advanced",
+    "topic": "DOM events",
+    "question": "Which method stops an event from propagating further through the DOM?",
+    "code": "",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.stopEvent()",
+      "event.cancelPropagation()"
+    ],
+    "answer": "event.stopPropagation()"
+  },
+  {
+    "id": 149,
+    "level": "advanced",
+    "topic": "event delegation",
+    "question": "What is event delegation?",
+    "code": "",
+    "options": [
+      "Attaching a listener to a parent to handle events from its descendants",
+      "Removing all event listeners",
+      "Creating events automatically",
+      "Delaying an event"
+    ],
+    "answer": "Attaching a listener to a parent to handle events from its descendants"
+  },
+  {
+    "id": 150,
+    "level": "advanced",
+    "topic": "performance",
+    "question": "Which technique limits how frequently a function can execute during repeated events such as scrolling?",
+    "code": "",
+    "options": [
+      "Recursion",
+      "Throttling",
+      "Hoisting",
+      "Destructuring"
+    ],
+    "answer": "Throttling"
+  }
+]
