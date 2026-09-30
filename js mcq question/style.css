@@ -131,6 +131,12 @@ body {
     color: var(--primary-light);
 }
 
+.intro-section{
+    padding: 1rem;
+    text-align: center;
+
+}
+
 /* =========================
    MAIN
 ========================= */
@@ -402,6 +408,10 @@ input {
 @media (width <= 600px) {
     .navbar {
         min-height: 6rem;
+    }
+    .intro-section p{
+        display: none;
+
     }
 
     .logo span {
